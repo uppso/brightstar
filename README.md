@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+![Bright Star Logo](src/assets/brightstarlogo.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bright Star Example App
+
+Bright Star is a sample app, bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You can fork and change any part of this app to showcase your development skills. Please tell us what you've done and why, either as a pull request or in an email.
+
+## Task Requirement
+
+As a minimum requirement, we ask applicants to [create a ratings component](src/pages/task/Rating.tsx). The ratings component will provide insight regarding others' opinions and experiences, and can allow the user to submit a rating of their own. It should look, and have behaviour similar to other rating components such as [Trustpilot](https://uk.trustpilot.com/review/ocuplan.co.uk)
+
+A starting component can [be found here](src/pages/task/Rating.tsx)
 
 ## Available Scripts
 
@@ -29,18 +37,50 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Libraries used in this example
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+It is assumed that applicants already have a good understanding of React and [Typescript](https://www.typescriptlang.org/), check out the [React documentation](https://reactjs.org/) You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Other libraries used in this project include:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [Material UI](https://mui.com/) for interface components
+- [Framer Motion](https://www.framer.com/motion/) for animations
+- [React Router](https://reactrouter.com/docs/en/v6/getting-started/overview) for navigation
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Uppso is a leading software company that builds game changing progressive web apps. We are looking for a Full Stack Developer to join our expanding team. The role requires the successful applicant to assist in the building of a web platform for the health industry. You will work with leading healthcare specialists in the UK and some of the largest healthcare brands in the world to support a small focussed team of top-tier developers in the designing and building of a truly great web application with particular focus on user experience.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The successful applicant will be exposed to new, interesting, and unique technologies in the course of the role, which includes the opportunity to build a game changing app payment platform.
+
+### Role Requirements:
+
+- Work closely with a team of developers remotely via Github, Slack, Zoom and other networking tools
+
+- Ensure features are being delivered efficiently and on-time
+
+- In addition to code contribution, the successful applicant will also participate in architectural review and design
+
+### Minimum qualifications:
+
+- Bachelor's degree in Computer Science or equivalent practical experience
+
+- 3+ years work experience as a software engineer or relevant experience
+
+### Preferred Skills/Qualifications:
+
+- 5+ yrs of experience in developing Software Applications
+
+- Deep understanding of JavaScript, Typescript and Node.js
+
+- Deep understanding of React.JS and Node.JS
+
+- DevOps skills: AWS, Google Cloud, Firebase
+
+- Proven track record of shipping software and successfully released apps (please include names and links on your resume)
+
+- Strong attention to detail on every line of code, every unit test, and every commit message
+
+- Comfortable with rapid development cycles and tight schedules
+
+Please note to apply for this position, you MUST have a UK passport / valid UK settlement status or a Visa that does not require sponsorship of any kind.
