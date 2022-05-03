@@ -1,6 +1,6 @@
 import {
-  Button,
   Container,
+  Paper,
   Typography,
   useMediaQuery,
   useTheme,
@@ -13,26 +13,6 @@ import { Planet } from "../../library/Planet";
 import { Planets } from "../../library/Planets";
 import { Stage } from "../../library/Stage";
 import { Rating } from "./Rating";
-
-function Intro() {
-  return (
-    <>
-      <Typography variant="h1">Developer Task</Typography>
-      <Typography variant="body1" color="#090919" sx={{ py: 4 }}>
-        The client has asked for a Rating component,
-        <br />
-        similar in style and functionality to{" "}
-        <Button
-          variant="contained"
-          target="_blank"
-          href="https://uk.trustpilot.com/review/ocuplan.co.uk"
-        >
-          trustpilot
-        </Button>
-      </Typography>
-    </>
-  );
-}
 
 /**
  *
@@ -57,8 +37,23 @@ export default function TaskPage() {
         />
       </Planets>
       <Container maxWidth="sm" sx={{ textAlign: "center", zIndex: 10 }}>
-        <Intro></Intro>
-        <Rating />
+        <Typography variant="h1" gutterBottom>
+          Developer Task
+        </Typography>
+        <Paper
+          sx={{
+            textAlign: "center",
+            background: "#f6f5e941",
+            backdropFilter: "blur(5px)",
+            mb: 10,
+            py: 3,
+          }}
+        >
+          <Typography variant="body1" color="#090919" gutterBottom>
+            A rating component
+          </Typography>
+          <Rating />
+        </Paper>
       </Container>
     </Stage>
   );

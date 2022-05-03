@@ -32,7 +32,7 @@ export function Stage({
             opacity: 1,
             scale: 1,
           },
-          exit: { scale: 1.2, opacity: 0 },
+          exit: { opacity: 0 },
         }}
         style={{
           minHeight: "100vh",
