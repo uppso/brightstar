@@ -4,6 +4,8 @@
 
 Bright Star is a sample app, bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You can fork and change any part of this app to showcase your development skills. Please tell us what you've done and why, either as a pull request or in an email.
 
+A example of this app is hosted online here [brightstar.web.app](https://brightstar.web.app/)
+
 ## Task Requirement
 
 As a minimum requirement, we ask applicants to [create a ratings component](src/pages/task/Rating.tsx). The ratings component will provide insight regarding others' opinions and experiences, and can allow the user to submit a rating of their own. It should look, and have behaviour similar to other rating components such as [Trustpilot](https://uk.trustpilot.com/review/ocuplan.co.uk)
