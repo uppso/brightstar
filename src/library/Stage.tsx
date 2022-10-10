@@ -1,13 +1,19 @@
 import { Box } from "@mui/material";
 import { motion } from "framer-motion";
 
-export function Stage({
-  background,
-  children,
-}: {
+export interface StageParams {
   background: string;
   children?: JSX.Element[] | JSX.Element;
-}) {
+}
+
+/**
+ * Stage
+ * A full height div that takes up the full viewport
+ * and zooms in and out on load using framer-motion
+ * @param StageParams background and optional children
+ * @returns
+ */
+export function Stage({ background, children }: StageParams) {
   return (
     <Box
       sx={{

@@ -1,7 +1,10 @@
 import { AppBar as MuiAppBar, Toolbar } from "@mui/material";
-import React from "react";
 import logo from "../assets/brightstarlogo.svg";
 
+/**
+ * AppBar at the top of the page with the app logo
+ * @returns JSX.Element
+ */
 export function AppBar() {
   return (
     <MuiAppBar sx={(theme) => ({ background: "transparent" })} elevation={0}>

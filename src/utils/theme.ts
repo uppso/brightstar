@@ -3,6 +3,7 @@ import { createTheme } from "@mui/material/styles";
 
 /**
  * Here is a basic custom theme for this app
+ * @see https://mui.com/material-ui/customization/theming/
  */
 const theme = createTheme({
   shape: {

@@ -5,6 +5,8 @@ import spaceman from "../assets/spaceman.svg";
 
 /**
  * User error screen
+ * @see https://reactjs.org/docs/error-boundaries.html
+ * @see https://www.framer.com/motion/
  * @returns JSX.Element
  */
 function SpacemanErrorScreen() {
@@ -35,6 +37,7 @@ function SpacemanErrorScreen() {
 
 /**
  * Error Boundary
+ * @see https://reactjs.org/docs/error-boundaries.html
  */
 export default class ErrorBoundary extends React.Component {
   constructor(props: any) {

@@ -6,7 +6,6 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material";
-import React from "react";
 import { Link } from "react-router-dom";
 import stars from "../../assets/background.svg";
 import mars from "../../assets/mars.svg";
@@ -14,6 +13,7 @@ import saturn from "../../assets/saturn.svg";
 import { Planet } from "../../library/Planet";
 import { Planets } from "../../library/Planets";
 import { Stage } from "../../library/Stage";
+
 /**
  The homepage for this app
  * @returns React JSX.Element

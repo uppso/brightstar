@@ -5,7 +5,6 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material";
-import React from "react";
 import mars from "../../assets/mars.svg";
 import saturn from "../../assets/saturn.svg";
 import { Cloud } from "../../library/Cloud";
@@ -15,7 +14,9 @@ import { Stage } from "../../library/Stage";
 import { Rating } from "./Rating";
 
 /**
- *
+ * TaskPage
+ * A page containing components and a Rating component
+ * that we would like you to customize.
  * @returns React JSX.Element
  */
 export default function TaskPage() {
@@ -52,6 +53,7 @@ export default function TaskPage() {
           <Typography variant="body1" color="#090919" gutterBottom>
             A rating component
           </Typography>
+          {/* Please develop this rating component below */}
           <Rating />
         </Paper>
       </Container>

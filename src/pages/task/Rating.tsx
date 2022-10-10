@@ -2,8 +2,10 @@ import { Star } from "@mui/icons-material";
 import { Box, styled } from "@mui/material";
 
 /**
- * @url If you are unfamiliar with Material UI, you can find some helpful
- * documentation here: https://mui.com/material-ui/react-rating/
+ * Material UI
+ * If you are unfamiliar with Material UI,
+ * you can find some helpful documentation for the rating component here:
+ * @see https://mui.com/material-ui/react-rating/
  */
 
 /**
@@ -25,17 +27,16 @@ const StyledStarBox = styled(Box)(({ theme }) => ({
 }));
 
 /**
- * Optional parameters for parent control
+ * Optional props that can be passed in to the component.
  */
-interface RatingProps {
+export interface RatingProps {
   value?: number;
   onChange?: () => void;
 }
 
 /**
- * Rating Component is used to give user feedback and display.
- * This is a starting component outline. Use as much or as
- * little of this as you need.
+ * Rating Component
+ * Used to give user feedback and display.
  * @param props RatingProps
  * @returns
  */
