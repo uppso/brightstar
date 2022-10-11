@@ -11,7 +11,7 @@ import { Cloud } from "../../library/Cloud";
 import { Planet } from "../../library/Planet";
 import { Planets } from "../../library/Planets";
 import { Stage } from "../../library/Stage";
-import { Rating } from "./Rating";
+import { Ratings } from "../../library/Ratings";
 
 /**
  * TaskPage
@@ -54,7 +54,7 @@ export default function TaskPage() {
             A rating component
           </Typography>
           {/* Please develop this rating component below */}
-          <Rating />
+          <Ratings />
         </Paper>
       </Container>
     </Stage>

@@ -29,7 +29,7 @@ const StyledStarBox = styled(Box)(({ theme }) => ({
 /**
  * Optional props that can be passed in to the component.
  */
-export interface RatingProps {
+export interface RatingsProps {
   value?: number;
   onChange?: () => void;
 }
@@ -40,7 +40,7 @@ export interface RatingProps {
  * @param props RatingProps
  * @returns
  */
-export function Rating(props: RatingProps) {
+export function Ratings(props: RatingsProps) {
   return (
     <Box
       data-testid="rating"

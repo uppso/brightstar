@@ -8,9 +8,9 @@ A example of this app is hosted online here [brightstar.web.app](https://brights
 
 ## Task Requirement
 
-As a minimum requirement, we ask applicants to [create a ratings component](src/pages/task/Rating.tsx). The ratings component will provide insight regarding others' opinions and experiences, and can allow the user to submit a rating of their own. It should look, and have behaviour similar to other rating components such as [Trustpilot](https://uk.trustpilot.com/review/ocuplan.co.uk)
+As a minimum requirement, we ask applicants to [create a ratings component](src/library/Ratings.tsx). The ratings component will provide insight regarding others' opinions and experiences, and can allow the user to submit a rating of their own. It should look, and have behaviour similar to other rating components such as [Trustpilot](https://uk.trustpilot.com/review/ocuplan.co.uk)
 
-A starting component can [be found here](src/pages/task/Rating.tsx)
+A starting component can [be found here](src/library/Ratings.tsx)
 
 ## Available Scripts
 
